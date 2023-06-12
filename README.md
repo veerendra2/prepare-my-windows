@@ -1,5 +1,5 @@
-# Windows Dev
-Scripts and playbooks to install necessary packages I use on my Windows.
+# Init My Windows
+[IaC](https://en.wikipedia.org/wiki/Infrastructure_as_code) setup to install necessary packages and configure my Windows.
 
 ## Prerequisite
 Install [`chocolatey`](https://chocolatey.org/) package manager for Windows.
