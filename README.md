@@ -11,18 +11,18 @@ Install [`chocolatey`](https://chocolatey.org/) package manager for Windows.
 * Check policy in Powershell(Run as administrator)
   > Run `Get-ExecutionPolicy`. If it returns `Restricted`, then run `Set-ExecutionPolicy AllSigned` or `Set-ExecutionPolicy Bypass -Scope` Process.
 * Install `chocolatey`
-  ```
+  ```Powershell
   Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
   ```
 
 ## Run
-Once `chocolatey` is installed, open powershell(with run as administrator)
-```Powershell
-PS C:\WINDOWS\system32> cd c:\Users\veere\Downloads
-PS C:\WINDOWS\system32> git clone git@github.com:veerendra2/init-my-windows.git
-PS C:\Users\veere\Downloads> cd init-my-windows
-PS C:\Users\veere\Downloads\init-my-windows> choco install packages.config -y
-```
+* Download this Github repo https://github.com/veerendra2/init-my-windows/archive/refs/heads/main.zip
+* Once `chocolatey` is installed, open powershell(with run as administrator)
+  ```Powershell
+  # Download and extract Github repo
+  PS C:\Users\veere\Downloads> cd init-my-windows-main
+  PS C:\Users\veere\Downloads\init-my-windows-main> choco install packages.config -y
+  ```
 
 ## How to create custom script
 * Use script builder https://docs.chocolatey.org/en-us/community-repository/script-builde
