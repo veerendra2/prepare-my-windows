@@ -1,0 +1,122 @@
+{
+	"$schema": "https://aka.ms/winget-packages.schema.2.0.json",
+	"CreationDate": "2025-05-11T23:28:56.979-00:00",
+	"Sources": [
+		{
+			"Packages": [
+				{
+					"PackageIdentifier": "CPUID.CPU-Z"
+				},
+				{
+					"PackageIdentifier": "Git.Git"
+				},
+				{
+					"PackageIdentifier": "Mozilla.Firefox"
+				},
+				{
+					"PackageIdentifier": "Notepad++.Notepad++"
+				},
+				{
+					"PackageIdentifier": "Proton.ProtonVPN"
+				},
+				{
+					"PackageIdentifier": "Ghisler.TotalCommander"
+				},
+				{
+					"PackageIdentifier": "VideoLAN.VLC"
+				},
+				{
+					"PackageIdentifier": "Obsidian.Obsidian"
+				},
+				{
+					"PackageIdentifier": "Microsoft.VCRedist.2010.x64"
+				},
+				{
+					"PackageIdentifier": "WireGuard.WireGuard"
+				},
+				{
+					"PackageIdentifier": "Giorgiotani.Peazip"
+				},
+				{
+					"PackageIdentifier": "BornToBeRoot.NETworkManager"
+				},
+				{
+					"PackageIdentifier": "Microsoft.VCRedist.2008.x64"
+				},
+				{
+					"PackageIdentifier": "Google.Chrome"
+				},
+				{
+					"PackageIdentifier": "Nvidia.PhysX"
+				},
+				{
+					"PackageIdentifier": "Microsoft.VisualStudioCode"
+				},
+				{
+					"PackageIdentifier": "GoLang.Go"
+				},
+				{
+					"PackageIdentifier": "DiskInternals.LinuxReader"
+				},
+				{
+					"PackageIdentifier": "Microsoft.Edge"
+				},
+				{
+					"PackageIdentifier": "OBSProject.OBSStudio"
+				},
+				{
+					"PackageIdentifier": "Valve.Steam"
+				},
+				{
+					"PackageIdentifier": "Ubisoft.Connect"
+				},
+				{
+					"PackageIdentifier": "Mobatek.MobaXterm"
+				},
+				{
+					"PackageIdentifier": "Microsoft.VCRedist.2012.x86"
+				},
+				{
+					"PackageIdentifier": "Microsoft.DotNet.DesktopRuntime.7"
+				},
+				{
+					"PackageIdentifier": "Python.Launcher"
+				},
+				{
+					"PackageIdentifier": "Iterate.Cyberduck"
+				},
+				{
+					"PackageIdentifier": "Jellyfin.JellyfinMediaPlayer"
+				},
+				{
+					"PackageIdentifier": "Bitwarden.Bitwarden"
+				},
+				{
+					"PackageIdentifier": "Spotify.Spotify"
+				},
+				{
+					"PackageIdentifier": "SumatraPDF.SumatraPDF"
+				},
+				{
+					"PackageIdentifier": "Python.Python.3.13"
+				},
+				{
+					"PackageIdentifier": "Canonical.Ubuntu"
+				},
+				{
+					"PackageIdentifier": "Microsoft.WindowsTerminal"
+				},
+				{
+					"PackageIdentifier": "Microsoft.WSL"
+				}
+			],
+			"SourceDetails": {
+				"Argument": "https://cdn.winget.microsoft.com/cache",
+				"Identifier": "Microsoft.Winget.Source_8wekyb3d8bbwe",
+				"Name": "winget",
+				"Type": "Microsoft.PreIndexed.Package"
+			}
+		}
+	],
+	"WinGetVersion": "1.10.390"
+}
