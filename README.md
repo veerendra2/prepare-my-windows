@@ -6,14 +6,21 @@
 </div>
 
 
-## Run
+## Installation
+
+1. Download `packages.json` file from `main`
+```Powershell
+Invoke-WebRequest "https://raw.githubusercontent.com/veerendra2/prepare-my-windows/refs/heads/main/packages.config" -OutFile (Join-Path ([Environment]::GetFolderPath("UserProfile")) "Downloads\packages.config")
+```
+
+2. Start installation
 ```Powershell
 winget import `
-  -i packages.json `
+  -i "$env:USERPROFILE\Downloads\packages.json" `
   --accept-package-agreements `
   --accept-source-agreements `
   --silent
 
 ```
 
-- For MacOS and Ubuntu https://github.com/veerendra2/prepare-my-machine.git
+_For MacOS and Ubuntu [https://github.com/veerendra2/prepare-my-machine.git](https://github.com/veerendra2/prepare-my-machine.git)_

@@ -29,9 +29,6 @@
 					"PackageIdentifier": "Obsidian.Obsidian"
 				},
 				{
-					"PackageIdentifier": "Microsoft.VCRedist.2010.x64"
-				},
-				{
 					"PackageIdentifier": "WireGuard.WireGuard"
 				},
 				{
@@ -59,9 +56,6 @@
 					"PackageIdentifier": "DiskInternals.LinuxReader"
 				},
 				{
-					"PackageIdentifier": "Microsoft.Edge"
-				},
-				{
 					"PackageIdentifier": "OBSProject.OBSStudio"
 				},
 				{
@@ -72,12 +66,6 @@
 				},
 				{
 					"PackageIdentifier": "Mobatek.MobaXterm"
-				},
-				{
-					"PackageIdentifier": "Microsoft.VCRedist.2012.x86"
-				},
-				{
-					"PackageIdentifier": "Microsoft.DotNet.DesktopRuntime.7"
 				},
 				{
 					"PackageIdentifier": "Python.Launcher"
@@ -108,6 +96,12 @@
 				},
 				{
 					"PackageIdentifier": "Microsoft.WSL"
+				},
+				{
+					"PackageIdentifier": "WinDirStat.WinDirStat"
+				},
+				{
+					"PackageIdentifier": "Oracle.VirtualBox"
 				}
 			],
 			"SourceDetails": {
